@@ -37,6 +37,7 @@ body {
 /* END */
 
 .trailer {
+    background-color: black;
     text-align: center;
     border: 5px solid white;
     border-radius: 10px;

@@ -37,6 +37,7 @@ body {
 /* END */
 
 .plotParagraph {
+    background-color: black;
     text-align: justify;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;

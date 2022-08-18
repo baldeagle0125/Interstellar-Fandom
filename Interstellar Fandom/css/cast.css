@@ -37,6 +37,7 @@ body {
 /* END */
 
 .cast {
+    background-color: black;
     text-align: center;
     border: 5px solid white;
     border-radius: 10px;
@@ -48,4 +49,6 @@ body {
 .castPerson {
     width: 100px;
     height: 100px;
+    display: inline-block;
+    padding: 15px;
 }
