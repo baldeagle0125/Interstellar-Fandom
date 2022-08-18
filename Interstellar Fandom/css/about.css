@@ -1,14 +1,26 @@
-.body {
-    background-color: rgb(176, 176, 176);
+/* IMPORTANT */
+/* BEGIN */
+@font-face { 
+    font-family: OPTIBodoni-Antiqua;
+    src: url('../fonts/OPTIBodoni-Antiqua.otf');
+} 
+
+html {
+    font-family: OPTIBodoni-Antiqua;
+}
+
+body {
+    background-image: url("../images/backgroundWallpaper.jpg");
 }
 
 .title {
     text-align: center;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .menu {
+    background-color: black;
     text-align: center;
     font-size: 25px;
     border: 5px solid white;
@@ -18,22 +30,20 @@
 }
 
 .menuItems {
-    border: 3px solid orange;
-    background-color: orange;
+    border: 3px solid white;
+    background-color: white;
     border-radius: 5px;
 }
-
-.menuItemsMain {
-    border: 3px solid red;
-    background-color: red;
-    border-radius: 5px;
-}
+/* END */
 
 .aboutParagraph {
+    background-color: black;
+    color: white;
     text-align: justify;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    /* white-space: pre-line; */
+    word-wrap: break-word;
     border: 5px solid white;
     border-radius: 10px;
     margin-top: 50px;
+    padding: 15px;
 }

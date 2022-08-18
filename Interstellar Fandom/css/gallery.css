@@ -36,13 +36,16 @@ body {
 }
 /* END */
 
-.plotParagraph {
-    text-align: justify;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+.gallery {
+    background-color: black;
+    text-align: center;
     border: 5px solid white;
     border-radius: 10px;
     margin-top: 50px;
     padding: 15px;
-    color: white;
+}
+
+.galleryItems {
+    width: 300px;
+    height: 300px;
 }
