@@ -56,5 +56,5 @@ a:hover {
 
 .galleryItems {
     width: 300px;
-    height: 300px;
+    height: auto;
 }
