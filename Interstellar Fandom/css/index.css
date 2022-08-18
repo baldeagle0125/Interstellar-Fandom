@@ -34,7 +34,24 @@ body {
     background-color: white;
     border-radius: 5px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(0, 149, 255);
+}
 /* END */
+
+.poster {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
 
 .info {
     background-color: black;
